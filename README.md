@@ -11,15 +11,30 @@ To install python and python virtual environment  :
 sudo apt-get install python3   
 sudo apt-get install python3-venv   
 
-To install virtual env, go to project folder then run : 
+
+TO INSTALL PROJECT : 
+1. Install virtual environment and dependencies on startup
 python3 -m venv .env
 
-Open new terminal on virtual environment (venv). 
+2. Install flask 
+pip3 install flask 
 
-To install flask on enviroment : 
-pip3 install flask
+3. Install dependencies
+pip3 install -r requirements.txt
 
 
+TO START APPLICATION : 
+1. Open virtual environment venv .env (if not done by IDE): 
+source .env/bin/activate
 
-Open virtual environment venv then run application : 
+2. Run application : 
 python3 -m flask run
+
+
+TO ADD A DEPENDENCY : 
+1. install new library
+pip3 install <lib...>
+
+2. update requirements.txt file
+pip3 freeze > requirements.txt
+
