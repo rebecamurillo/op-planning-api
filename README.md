@@ -2,6 +2,7 @@
 
 Python flask API for OpPlanning
 Tutorial for Visual Studio Code : https://code.visualstudio.com/docs/python/tutorial-flask
+Flask tutorial : https://flask.palletsprojects.com/en/1.1.x/quickstart/
 
 
 App index is on app.py
